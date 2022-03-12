@@ -6,8 +6,8 @@ const NavBar = ({menuOpen,toggleClick}) => {
     
 //-tracking-widest
     return ( 
-        <header className="h-20 w-full top-0 left-0 bg-bleu fixed z-30 text-white flex lg:justify-evenly text-2xl lg:text-lg">
-            <a href="#" ><img src="images/trust the process.svg"  alt='logo' className="h-16 w-40 my-2  " /></a>  
+        <header className="h-[70px] w-full top-0 left-0 bg-bleu fixed z-30 text-white flex lg:justify-evenly text-2xl lg:text-lg">
+            <a href="#" ><img src="images/OE (3).png"  alt='logo' className="ml-5 lg:ml-0 h-[50px] my-[10px] fill-white " /></a>  
             
                 <a href="#" className="hidden lg:block  my-6    hover:text-orange rounded transition duration-200  ">Digital art</a>
                 <a href="#graphic_design" className="hidden lg:block  my-6    hover:text-orange rounded transition duration-200 mx-6">Graphic Design</a>

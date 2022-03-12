@@ -50,14 +50,16 @@ function App() {
 //<video className="min-h-screen object-cover w-screen" src="images/website_logo&intro.mp4" autoPlay loop muted></video>
   return (
     
-      <main className="bg-noir w-full min-h-screen flex-row text-white font-azonix h-full  ">
+      <main className="bg-noir w-full min-h-screen flex-row text-white font-azonix h-full scroll-smooth ">
         <NavBar toggleClick={toggleClick} menuOpen={menuOpen}  />
-        <div className="">
+        
+        <div className="relative top-[70px]">
         
           <Side menuOpen={menuOpen}  />
           <Accueil />
+          
         </div>
-        <Footer />
+        
       </main>
     
   );

@@ -60,28 +60,28 @@ const Style = () => {
     }, []);*/
     //overflow-hidden
     return ( 
-    <div ref={divRef} className="  relative bg-contain h-auto  bg-no-repeat over mb-10 ">
+    <div ref={divRef} className="relative h-auto mb-10 ">
 
         <img src="images/DIGITAL_ART_BG.png" alt="bg" className={`absolute top-0 left-0  transition duration-[5000ms] w-full  object-cover ${show ? "opacity-0" : "opacity-100" }`}/>
         
-        <div id="graphic_design"  className="overflow-hidden">
+        <div id="digital_art"  className="overflow-hidden">
             <div className="h-0 relative  pb-6 w-0 pr-[2500px]   ">
-                <img   alt=""  src="images/DIGITAL_ART_BAR.png" width="2500" height="28" className="absolute left-0 top-0 animate-move h-full max-h-full max-w-full w-full  " />
+                <img   alt=""  src="images/DIGITAL_ART_BAR.png" width="2500" height="28" className="absolute left-0 top-0 animate-move fill_mode h-full max-h-full max-w-full w-full  " />
             </div>
         </div>
 
-        <div className={`flex justify-center  m-10 transition duration-[5000ms]   ${show ? "opacity-100" : "opacity-0" }`} >
+        <div className={`md:flex md:justify-center m-1  md:m-10 transition duration-[5000ms]   ${show ? "opacity-100" : "opacity-0" }`} >
             
-            <div className="sticky top-[100px] w-1/3 h-full">
+            <div className="relative md:sticky md:top-[100px] m-9 md:m-0 md:w-1/3 h-full">
                 <div className={``}>  
-                    <img ref={refStyle} src="images/dizzy_dros.jpg" height={height} width={height+height/4}  alt="dizzy" className={`  `}  />
+                    <img ref={refStyle} src="images/dizzy_dros.jpg" height={height} width={height+height/4}  alt="dizzy" className={` sm:m-auto `}  />
                     {//absolute inset-0 h-full w-auto object-fill
                     }
                 </div>
             </div>
             
         
-            <div className="w-2/3 ml-10">
+            <div className="mt-10 md:mt-0 w-full md:w-2/3 md:ml-10">
                 <img ref={reftuto} src="images/parallax_scroll_1.png" width="800" height="500" alt="tuto" className="sticky top-[100px] h-auto  " />
                 <img src="images/parallax_scroll_2.png" width="800" height="500" alt="tuto" className="sticky top-[100px] h-auto " />
                 <img src="images/parallax_scroll_3.png" width="800" height="500" alt="tuto" className="sticky  h-auto " />

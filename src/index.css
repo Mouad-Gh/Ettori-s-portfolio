@@ -10,6 +10,9 @@
 
 @layer components {
     .popHeight{
-        height: calc(100vh - 80px);
+        height: calc(100vh - 70px);
+    }
+    .fill_mode{
+        animation-fill-mode: both;
     }
 }

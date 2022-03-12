@@ -24,8 +24,8 @@ module.exports = {
       },
       keyframes:{
         move:{
-          '0%': {transform : 'translateX(-25%)'},
-          '100%' : {transform : 'translateX(0%)'}
+          '0%': {transform : 'translateX(-24%)'},
+          '100%' : {transform : 'translateX(-6%)'},
 
         }
       },
@@ -34,6 +34,7 @@ module.exports = {
       },
       gridTemplateColumns: {
         'fit': 'repeat(auto-fit, minmax(250px,1fr))',
+        'fitsm': 'repeat(auto-fit, minmax(195px,1fr))',
       },
     },
   },
