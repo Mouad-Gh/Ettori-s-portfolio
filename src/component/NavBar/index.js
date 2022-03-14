@@ -1,5 +1,5 @@
 import { MenuIcon, XIcon } from "@heroicons/react/solid";
-import { useEffect, useState } from "react";
+
 
 const NavBar = ({menuOpen,toggleClick}) => {
 //ChevronDownIcon

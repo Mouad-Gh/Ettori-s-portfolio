@@ -1,5 +1,4 @@
-import Item from "./Item";
-import { PRODUCTS,RESOURCES,COMPANY,SUPPORT } from "./Menus";
+
 
 const Footer = () => {
     return ( <footer id="contact" className=" mt-10 flex flex-col items-center leading-8   p-2 ">
