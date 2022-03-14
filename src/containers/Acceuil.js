@@ -1,3 +1,4 @@
+import About from "../component/About";
 import AnimationGallery from "../component/AnimationGallery";
 import Footer from "../component/Footer";
 import ImageGallery from "../component/ImageGallery";
@@ -185,6 +186,30 @@ const Accueil = () => {
             title: "bts fan",
             style : "Illustration"
         },
+        {
+            index:20,
+            src: "images/soulayman.jpg",
+            divClass:classes.v_stretch,
+            imgClass:'h-full w-full object-cover object-[40%_40%]',
+            title: "soulayman",
+            style : "Illustration"
+        },
+        {
+            index:20,
+            src: "images/me.jpg",
+            divClass:classes.big_stretch,
+            imgClass:'h-full w-full object-cover object-bottom',
+            title: "portrait",
+            style : "Illustration"
+        },
+        {
+            index:20,
+            src: "images/pixel.jpg",
+            divClass:classes.big_stretch,
+            imgClass:'h-full w-full object-cover object-bottom',
+            title: "pixels",
+            style : "pixel art"
+        },
         
         
     ];
@@ -264,11 +289,11 @@ const Accueil = () => {
         },
         {
             index:3,
-            src: "images/GRAPHIC DESIGN/cute-santa.jpg",
+            src: "images/GRAPHIC DESIGN/tocard 2.jpg",
             divClass: classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
-            title: "cute santa",
-            style : "Logo"
+            title: "tocard",
+            style : "cover"
         },
         {
             index:16,
@@ -303,12 +328,12 @@ const Accueil = () => {
             style : "Logo"
         },
         {
-            index:14,
-            src: "images/GRAPHIC DESIGN/flokigoat.jpg",
-            divClass:classes.simple_stretch,
+            index:3,
+            src: "images/GRAPHIC DESIGN/cute-santa.jpg",
+            divClass: classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
-            title: "floki goat",
-            style : "ILogo"
+            title: "cute santa",
+            style : "Logo"
         },
         {
             index:15,
@@ -356,6 +381,7 @@ const Accueil = () => {
 
             </div>
             <AnimationGallery />
+            <About />
             <Footer />
         </div>
     </> );

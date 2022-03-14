@@ -55,7 +55,7 @@ function App() {
         
         <div className="relative top-[70px]">
         
-          <Side menuOpen={menuOpen}  />
+          <Side menuOpen={menuOpen} toggleClick={toggleClick}  />
           <Accueil />
           
         </div>

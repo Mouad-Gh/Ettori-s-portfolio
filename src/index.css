@@ -2,11 +2,18 @@
 @import url('http://fonts.cdnfonts.com/css/dalek-pinpoint');
 /*@import url('http://fonts.cdnfonts.com/css/greek-to-me');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');*/
-@import url('//db.onlinewebfonts.com/c/50cd2aad9c8f35800bb6beac3ad42f16?family=Azonix');
+/*@import url('//db.onlinewebfonts.com/c/50cd2aad9c8f35800bb6beac3ad42f16?family=Azonix');*/
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "azonix";
+        src: url('fonts/Azonix.otf');
+    }
+}
 
 @layer components {
     .popHeight{
