@@ -33,7 +33,7 @@ const Footer = () => {
         
       </div>
       <span className="text-center">© 2022 Appy. All rights reserved.</span>
-      <span className="text-center">Created by <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/mouad-ghouichat-9b480a197/" className="underline hover:text-orange" >Ghouichat Mouad</a></span>
+      <span className="text-center">Created by <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/mouad-ghouichat-9b480a197/" className="underline text-orange hover:text-bleu" >Ghouichat Mouad</a></span>
 
 
     </footer> );
