@@ -1,9 +1,7 @@
-import { useEffect, useState } from "react";
-import Bar from "./component/Bar";
+
 import NavBar from "./component/NavBar";
-import Side from "./component/SideBar/Side";
 import Accueil from "./containers/Acceuil";
-import Footer from "./component/Footer";
+
 
 
 //#0daaaa

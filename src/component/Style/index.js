@@ -1,15 +1,12 @@
-import { useLayoutEffect, useRef, useState } from "react";
 
 
 const Style = () => {
 
-    const divRef = useRef(null);
-    const refStyle = useRef(null);
-    const reftuto = useRef(null);
+    
     
     //overflow-hidden
     return ( 
-    <div ref={divRef} className="relative h-auto mb-10 ">
+    <div  className="relative h-auto mb-10 ">
 
         
         
@@ -23,7 +20,7 @@ const Style = () => {
             
             <div className="relative md:sticky md:top-[100px] m-9 md:m-0 md:w-1/3 h-full">
                 <div className={``}>  
-                    <img ref={refStyle} src="images/dizzy_dros.jpg"  alt="dizzy" className={` sm:m-auto `}  />
+                    <img  src="images/dizzy_dros.jpg"  alt="dizzy" className={` sm:m-auto `}  />
                     {//absolute inset-0 h-full w-auto object-fill
                     }
                 </div>
@@ -31,7 +28,7 @@ const Style = () => {
             
         
             <div className="flex flex-col items-center mt-10 md:mt-0 w-full  md:w-2/3 md:ml-10">
-                <img ref={reftuto} src="images/parallax_scroll_1.png" width="800" height="500" alt="tuto" className="sticky top-[100px] h-auto  " />
+                <img  src="images/parallax_scroll_1.png" width="800" height="500" alt="tuto" className="sticky top-[100px] h-auto  " />
                 <img src="images/parallax_scroll_2.png" width="800" height="500" alt="tuto" className="sticky top-[100px] h-auto " />
                 <img src="images/parallax_scroll_3.png" width="800" height="500" alt="tuto" className="sticky  h-auto " />
             </div>
