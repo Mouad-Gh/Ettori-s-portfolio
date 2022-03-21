@@ -11,51 +11,18 @@ import Footer from "./component/Footer";
 function App() {
 
 
-  const [menuOpen,setMenuOpen] = useState(false);
-    const [size,setSize] = useState({
-        width: 777,
-        height: undefined
-    });
-
-    useEffect(() => {
-        const sizeHundler= ()=>{
-          
-            setSize({
-                width: window.innerWidth,
-                height: window.innerHeight
-            })
-          
-        }
-        
-        window.addEventListener('resize',sizeHundler)
-        return () => {
-            //the cleanUp function
-            window.removeEventListener('resize',sizeHundler)
-        }
-    }, [])
-
-    //to prevent the menuopen on the large size
-    useEffect(() => {
-        if(size.width>1024 && menuOpen ){
-            setMenuOpen(false);
-        }
-        
-    }, [size.width,menuOpen])
-
-    const toggleClick = () => {
-        setMenuOpen(!menuOpen);
-    }
+  
     //-translate-x-full
 //scoot this in 
 //<video className="min-h-screen object-cover w-screen" src="images/website_logo&intro.mp4" autoPlay loop muted></video>
   return (
     
       <main className="bg-noir w-full min-h-screen flex-row text-white font-azonix h-full scroll-smooth ">
-        <NavBar toggleClick={toggleClick} menuOpen={menuOpen}  />
+        <NavBar  />
         
         <div className="relative top-[70px]">
         
-          <Side menuOpen={menuOpen} toggleClick={toggleClick}  />
+          
           <Accueil />
           
         </div>
