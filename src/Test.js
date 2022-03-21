@@ -3,7 +3,7 @@ import Bar from "./component/Bar";
 import NavBar from "./component/NavBar";
 import Side from "./component/SideBar/Side";
 import StyleCard from "./component/StyleCard";
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+//import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Circle from "./component/Circle";
 
 
