@@ -1,11 +1,12 @@
 
 import { Suspense, lazy } from "react";
-import Style from '../component/Style'
+
 
 const ImageGallery =lazy(()=>import('../component/ImageGallery'));
 const AnimationGallery =lazy(()=>import('../component/AnimationGallery'));
 const Footer =lazy(()=>import('../component/Footer'));
 const About =lazy(()=>import('../component/About'));
+const Style =lazy(()=>import('../component/Style'));
 
 const Accueil = () => {
 
@@ -368,12 +369,11 @@ const Accueil = () => {
     //sticky top-20 right-0  z-0 min-h-screen md:h-auto object-cover sm:object-fill w-screen
     return ( 
     <>
-        <video className="sticky top-[70px] right-0  object-cover  w-screen" src="images/LOGO_ANIMATION.mp4" autoPlay loop muted></video>
+        <video className="sticky top-[70px] w-screen" src="images/LOGO_ANIMATION.mp4" autoPlay loop muted></video>
         <video className="bg-blue w-screen sticky top-[70px]" src="images/comp_1.mp4" autoPlay loop muted></video>
         <div className="flex-1 sticky bg-noir ">
-        <Style />
          <Suspense fallback={<div>LOADING...</div>}>
-            
+            <Style />
             <ImageGallery images={digital_art} />
             <div className="relative my-[10px]">
                 <div id="graphic_design"  className="overflow-hidden mb-[10px]">

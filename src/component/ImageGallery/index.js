@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { XIcon } from "@heroicons/react/solid";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const ImageGallery = ({images}) => {
 
@@ -30,7 +32,7 @@ const ImageGallery = ({images}) => {
                 images.map((item,index)=>{
                     return (
                         <div key={index} className={item.divClass} onClick={()=>getImg(item.src)}>
-                            <img src={item.src}  alt={item.title} className={item.imgClass}/>
+                            <LazyLoadImage src={item.src}  alt={item.title} className={item.imgClass}/>
                             <div className="px-10 pt-7 m-auto absolute inset-0 z-10 w-full h-full border-4 border-gray-800 bg-noir opacity-0 hover:opacity-80 hover:cursor-pointer">
                                         <h2 className="tracking-widest text-sm title-font font-medium text-orange mb-1">
                                             {item.style}
