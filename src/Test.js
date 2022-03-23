@@ -56,7 +56,7 @@ function Test() {
         <div className="flex justify-start">
         
           <Side menuOpen={menuOpen}  />
-          <div className="flex-1 mt-20 bg-[url('../public/images/aghoucht.jpg')] ">
+          <div className="flex-1 mt-20  ">
             
              
           <video className="sticky top-20 right-0  z-0 min-h-screen md:h-auto object-cover w-screen" src="images/website_logo&intro.mp4" autoPlay loop muted></video>

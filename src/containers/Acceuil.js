@@ -23,7 +23,7 @@ const Accueil = () => {
     const digital_art =[
         {
             index:1,
-            src: "images/chmcreations.jpg",
+            src: "images/Digital_art/chmcreations.webp",
             divClass:'relative row-span-2 md:row-span-2',
             imgClass:'h-full w-full object-cover object-center',
             title: "chmcreations's contest",
@@ -31,7 +31,7 @@ const Accueil = () => {
         },
         {
             index:2,
-            src: "images/spleux.jpg",
+            src: "images/Digital_art/spleux.webp",
             divClass:'relative row-span-2 md:col-span-2 col-span-1',
             imgClass:'h-full w-full object-cover object-center',
             title: "spleux",
@@ -39,7 +39,7 @@ const Accueil = () => {
         },
         {
             index:3,
-            src: "images/small x.jpg",
+            src: "images/Digital_art/small_x.webp",
             divClass: classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "small x",
@@ -47,7 +47,7 @@ const Accueil = () => {
         },
         {
             index:4,
-            src: "images/inko.jpg",
+            src: "images/Digital_art/inko.webp",
             divClass:classes.v_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "inko",
@@ -55,15 +55,15 @@ const Accueil = () => {
         },
         {
             index:5,
-            src: "images/asmae.jpg",
+            src: "images/Digital_art/asmae.webp",
             divClass:classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-[10%_40%]',
             title: "asmae",
             style : "Illustration"
         },
         {
-            index:9,
-            src: "images/box 1.jpg",
+            index:6,
+            src: "images/Digital_art/box_1.webp",
             divClass:classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "box",
@@ -72,7 +72,7 @@ const Accueil = () => {
         
         {
             index:7,
-            src: "images/madd-x-hisoka.jpg",
+            src: "images/Digital_art/madd-x-hisoka.webp",
             divClass:classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "madd x hisoha",
@@ -80,15 +80,15 @@ const Accueil = () => {
         },
         {
             index:8,
-            src: "images/laaura.jpg",
+            src: "images/Digital_art/laaura.webp",
             divClass:classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "laaura",
             style : "Illustration"
         },
         {
-            index:6,
-            src: "images/joker.jpg",
+            index:9,
+            src: "images/Digital_art/joker.webp",
             divClass:classes.v_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "joker",
@@ -96,119 +96,119 @@ const Accueil = () => {
         },
         {
             index:10,
-            src: "images/anys-x-kurapika.jpg",
+            src: "images/Digital_art/anys-x-kurapika.webp",
             divClass:classes.v_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "anys x kurapika",
             style : "Illustration"
         },
         {
-            index:16,
-            src: "images/john-wick.jpg",
+            index:11,
+            src: "images/Digital_art/john-wick.webp",
             divClass:classes.h_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "john wick",
             style : "Illustration"
         },
         {
-            index:11,
-            src: "images/final sketch.jpg",
+            index:12,
+            src: "images/Digital_art/final_sketch.webp",
             divClass:classes.v_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "amine",
             style : "painting"
         },
         {
-            index:12,
-            src: "images/dax.jpg",
+            index:13,
+            src: "images/Digital_art/dax.webp",
             divClass:classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "dax",
             style : "Illustration"
         },
         {
-            index:13,
-            src: "images/drake.jpg",
+            index:14,
+            src: "images/Digital_art/drake.webp",
             divClass:classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "drake",
             style : "Illustration"
         },
         {
-            index:14,
-            src: "images/elifvzo.jpg",
+            index:15,
+            src: "images/Digital_art/elifvzo.webp",
             divClass:classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "elifzo",
             style : "Illustration"
         },
         {
-            index:15,
-            src: "images/oulid-x-deku.jpg",
+            index:16,
+            src: "images/Digital_art/oulid-x-deku.webp",
             divClass:classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "oualid x deku",
             style : "Illustration"
         },
         {
-            index:16,
-            src: "images/b&w-red.jpg",
+            index:17,
+            src: "images/Digital_art/b_w-red.webp",
             divClass:'relative row-span-2 md:row-span-2',
             imgClass:'h-full w-full object-cover object-center',
             title: "black & white",
             style : "Illustration"
         },
         {
-            index:17,
-            src: "images/EGT-x-cameleon.jpg",
+            index:18,
+            src: "images/Digital_art/EGT-x-cameleon.webp",
             divClass:'relative row-span-2 md:col-span-2 col-span-1',
             imgClass:'h-full w-full object-cover object-center',
             title: "EGT x cameleon",
             style : "Illustration"
         },
         {
-            index:18,
-            src: "images/sahara 1.jpg",
+            index:19,
+            src: "images/Digital_art/sahara_1.webp",
             divClass: classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "sahara",
             style : "painting"
         },
         {
-            index:19,
-            src: "images/fitjikh-x-supersaiyen.jpg",
+            index:20,
+            src: "images/Digital_art/fitjikh-x-supersaiyen.webp",
             divClass:classes.v_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "fitjikh x supersaiyen",
             style : "Illustration"
         },
         {
-            index:20,
-            src: "images/bts-fan.jpg",
+            index:21,
+            src: "images/Digital_art/bts-fan.webp",
             divClass:classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-[10%_40%]',
             title: "bts fan",
             style : "Illustration"
         },
         {
-            index:20,
-            src: "images/soulayman.jpg",
+            index:22,
+            src: "images/Digital_art/soulayman.webp",
             divClass:classes.v_stretch,
             imgClass:'h-full w-full object-cover object-[40%_40%]',
             title: "soulayman",
             style : "Illustration"
         },
         {
-            index:20,
-            src: "images/me.jpg",
+            index:23,
+            src: "images/Digital_art/me.webp",
             divClass:classes.big_stretch,
             imgClass:'h-full w-full object-cover object-bottom',
             title: "portrait",
             style : "Illustration"
         },
         {
-            index:20,
-            src: "images/pixel.jpg",
+            index:24,
+            src: "images/Digital_art/pixel.webp",
             divClass:classes.big_stretch,
             imgClass:'h-full w-full object-cover object-bottom',
             title: "pixels",
@@ -220,7 +220,7 @@ const Accueil = () => {
     const graphic_design = [
         {
             index:1,
-            src: "images/GRAPHIC DESIGN/grandfather clock story.png",
+            src: "images/GRAPHIC DESIGN/grandfather_clock_story.webp",
             divClass:'relative row-span-2 md:row-span-2',
             imgClass:'h-full w-full object-cover object-center',
             title: "grandfather clock",
@@ -228,7 +228,7 @@ const Accueil = () => {
         },
         {
             index:2,
-            src: "images/GRAPHIC DESIGN/floki-logo.jpg",
+            src: "images/GRAPHIC DESIGN/floki-logo.webp",
             divClass:'relative row-span-1 col-span-1',
             imgClass:'h-full w-full object-cover object-center',
             title: "floki",
@@ -236,7 +236,7 @@ const Accueil = () => {
         },
         {
             index:3,
-            src: "images/GRAPHIC DESIGN/Disfigured.jpg",
+            src: "images/GRAPHIC DESIGN/Disfigured.webp",
             divClass: classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "Disfigured",
@@ -244,7 +244,7 @@ const Accueil = () => {
         },
         {
             index:4,
-            src: "images/GRAPHIC DESIGN/ronnie osullivan poster.png",
+            src: "images/GRAPHIC DESIGN/ronnie_osullivan_poster.webp",
             divClass:classes.v_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "ronnie osullivan",
@@ -252,7 +252,7 @@ const Accueil = () => {
         },
         {
             index:5,
-            src: "images/GRAPHIC DESIGN/artisanate.jpg",
+            src: "images/GRAPHIC DESIGN/artisanate.webp",
             divClass:classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "Artisanat",
@@ -260,7 +260,7 @@ const Accueil = () => {
         },
         {
             index:9,
-            src: "images/GRAPHIC DESIGN/M&N.jpg",
+            src: "images/GRAPHIC DESIGN/M&N.webp",
             divClass:classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "m&n diamant",
@@ -269,7 +269,7 @@ const Accueil = () => {
         
         {
             index:7,
-            src: "images/GRAPHIC DESIGN/son of floki.jpg",
+            src: "images/GRAPHIC DESIGN/son_of_floki.webp",
             divClass:classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "son of floki",
@@ -277,7 +277,7 @@ const Accueil = () => {
         },
         {
             index:8,
-            src: "images/GRAPHIC DESIGN/miss-doge.jpg",
+            src: "images/GRAPHIC DESIGN/miss-doge.webp",
             divClass:classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "miss doge",
@@ -285,7 +285,7 @@ const Accueil = () => {
         },
         {
             index:6,
-            src: "images/GRAPHIC DESIGN/KALI-KALI-graffiti.jpg",
+            src: "images/GRAPHIC DESIGN/KALI-KALI-graffiti.webp",
             divClass:classes.h_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "Kali kali",
@@ -293,7 +293,7 @@ const Accueil = () => {
         },
         {
             index:3,
-            src: "images/GRAPHIC DESIGN/tocard 2.jpg",
+            src: "images/GRAPHIC DESIGN/tocard_2.webp",
             divClass: classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "tocard",
@@ -301,7 +301,7 @@ const Accueil = () => {
         },
         {
             index:16,
-            src: "images/GRAPHIC DESIGN/K.C.F-cover.jpg",
+            src: "images/GRAPHIC DESIGN/K.C.F-cover.webp",
             divClass:classes.h_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "K.C.F",
@@ -309,7 +309,7 @@ const Accueil = () => {
         },
         {
             index:11,
-            src: "images/GRAPHIC DESIGN/poseidon logo.jpg",
+            src: "images/GRAPHIC DESIGN/poseidon_logo.webp",
             divClass:classes.v_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "poseiden life",
@@ -317,7 +317,7 @@ const Accueil = () => {
         },
         {
             index:12,
-            src: "images/GRAPHIC DESIGN/PVES.png",
+            src: "images/GRAPHIC DESIGN/PVES.webp",
             divClass:classes.h_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "PVES",
@@ -325,7 +325,7 @@ const Accueil = () => {
         },
         {
             index:13,
-            src: "images/GRAPHIC DESIGN/son-of-floki.jpg",
+            src: "images/GRAPHIC DESIGN/son-of-floki.webp",
             divClass:classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "son of floki",
@@ -333,7 +333,7 @@ const Accueil = () => {
         },
         {
             index:3,
-            src: "images/GRAPHIC DESIGN/cute-santa.jpg",
+            src: "images/GRAPHIC DESIGN/cute-santa.webp",
             divClass: classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "cute santa",
@@ -341,7 +341,7 @@ const Accueil = () => {
         },
         {
             index:15,
-            src: "images/GRAPHIC DESIGN/alien-santa.jpg",
+            src: "images/GRAPHIC DESIGN/alien-santa.webp",
             divClass:classes.simple_stretch,
             imgClass:'h-full w-full object-cover object-center',
             title: "alien santa",
@@ -349,7 +349,7 @@ const Accueil = () => {
         },
         {
             index:16,
-            src: "images/GRAPHIC DESIGN/santa-alien.jpg",
+            src: "images/GRAPHIC DESIGN/santa-alien.webp",
             divClass:'relative ',
             imgClass:'h-full w-full object-cover object-center',
             title: "santa alien",
@@ -357,7 +357,7 @@ const Accueil = () => {
         },
         {
             index:17,
-            src: "images/GRAPHIC DESIGN/clean-men.jpg",
+            src: "images/GRAPHIC DESIGN/clean-men.webp",
             divClass:'relative row-span-1 col-span-2 ',
             imgClass:'h-full w-full object-cover object-bottom',
             title: "clean man",

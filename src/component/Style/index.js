@@ -12,7 +12,7 @@ const Style = () => {
         
         <div id="digital_art"  className="overflow-hidden">
             <div className="h-0 relative  pb-6 w-0 pr-[2500px]   ">
-                <img   alt=""  src="images/DIGITAL_ART_BAR.png" width="2500" height="28" className="absolute left-0 top-0 animate-move fill_mode h-full max-h-full max-w-full w-full  " />
+                <img   alt=""  src="images/Digital_art/DIGITAL_ART_BAR.webp" width="2500" height="28" className="absolute left-0 top-0 animate-move fill_mode h-full max-h-full max-w-full w-full  " />
             </div>
         </div>
 

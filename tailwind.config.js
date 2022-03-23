@@ -20,7 +20,7 @@ module.exports = {
         'pen': 'url(pen.png), pointer',
       },
       backgroundImage: {
-        'illustrations': "url('../public/images/DIGITAL_ART_BG.png')",
+        'illustrations': "url('../public/images/Digital_art/DIGITAL_ART_BG.png')",
       },
       keyframes:{
         move:{
