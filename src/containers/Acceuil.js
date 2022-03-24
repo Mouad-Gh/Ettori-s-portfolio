@@ -50,7 +50,7 @@ const Accueil = () => {
             src: "images/Digital_art/inko.webp",
             divClass:classes.v_stretch,
             imgClass:'h-full w-full object-cover object-center',
-            title: "inko",
+            title: "inkonnu",
             style : "painting"
         },
         {
@@ -251,6 +251,14 @@ const Accueil = () => {
             style : "Poster"
         },
         {
+            index:11,
+            src: "images/GRAPHIC DESIGN/poseidon_logo.webp",
+            divClass:classes.v_stretch,
+            imgClass:'h-full w-full object-cover object-center',
+            title: "poseiden life",
+            style : "Logo"
+        },
+        {
             index:5,
             src: "images/GRAPHIC DESIGN/artisanate.webp",
             divClass:classes.simple_stretch,
@@ -267,22 +275,8 @@ const Accueil = () => {
             style : "Logo"
         },
         
-        {
-            index:7,
-            src: "images/GRAPHIC DESIGN/son_of_floki.webp",
-            divClass:classes.simple_stretch,
-            imgClass:'h-full w-full object-cover object-center',
-            title: "son of floki",
-            style : "Logo"
-        },
-        {
-            index:8,
-            src: "images/GRAPHIC DESIGN/miss-doge.webp",
-            divClass:classes.simple_stretch,
-            imgClass:'h-full w-full object-cover object-center',
-            title: "miss doge",
-            style : "Logo"
-        },
+        
+        
         {
             index:6,
             src: "images/GRAPHIC DESIGN/KALI-KALI-graffiti.webp",
@@ -307,14 +301,7 @@ const Accueil = () => {
             title: "K.C.F",
             style : "Cover"
         },
-        {
-            index:11,
-            src: "images/GRAPHIC DESIGN/poseidon_logo.webp",
-            divClass:classes.v_stretch,
-            imgClass:'h-full w-full object-cover object-center',
-            title: "poseiden life",
-            style : "Logo"
-        },
+        
         {
             index:12,
             src: "images/GRAPHIC DESIGN/PVES.webp",
@@ -323,30 +310,8 @@ const Accueil = () => {
             title: "PVES",
             style : "Thumpnail"
         },
-        {
-            index:13,
-            src: "images/GRAPHIC DESIGN/son-of-floki.webp",
-            divClass:classes.simple_stretch,
-            imgClass:'h-full w-full object-cover object-center',
-            title: "son of floki",
-            style : "Logo"
-        },
-        {
-            index:3,
-            src: "images/GRAPHIC DESIGN/cute-santa.webp",
-            divClass: classes.simple_stretch,
-            imgClass:'h-full w-full object-cover object-center',
-            title: "cute santa",
-            style : "Logo"
-        },
-        {
-            index:15,
-            src: "images/GRAPHIC DESIGN/alien-santa.webp",
-            divClass:classes.simple_stretch,
-            imgClass:'h-full w-full object-cover object-center',
-            title: "alien santa",
-            style : "Logo"
-        },
+        
+        
         {
             index:16,
             src: "images/GRAPHIC DESIGN/santa-alien.webp",
