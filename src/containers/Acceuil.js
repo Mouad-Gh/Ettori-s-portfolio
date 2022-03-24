@@ -335,7 +335,7 @@ const Accueil = () => {
     return ( 
     <>
         <video className="sticky top-[70px] w-screen" src="images/LOGO_ANIMATION.mp4" autoPlay loop muted></video>
-        <video className="bg-blue w-screen sticky top-[70px]" src="images/comp_1.mp4" autoPlay loop muted></video>
+        <video className="bg-blue w-screen sticky top-[70px]" src="images/TTP_animation.mp4" autoPlay loop muted></video>
         <div className="flex-1 sticky bg-noir ">
          <Suspense fallback={<div>LOADING...</div>}>
             <Style />
