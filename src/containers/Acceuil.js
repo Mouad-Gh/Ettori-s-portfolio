@@ -338,10 +338,13 @@ const Accueil = () => {
         <video className="bg-blue w-screen sticky top-[70px]" src="images/TTP_animation.mp4" autoPlay loop muted></video>
         <div className="flex-1 sticky bg-noir ">
          <Suspense fallback={<div>LOADING...</div>}>
+         <section  id="digital_art">
             <Style />
             <ImageGallery images={digital_art} />
-            <div className="relative my-[10px]">
-                <div id="graphic_design"  className="overflow-hidden mb-[10px]">
+        </section>
+            
+            <section id="graphic_design" className="relative my-[10px]">
+                <div  className="overflow-hidden mb-[10px]">
                     <div className="h-0 relative  pb-6 w-0 pr-[2500px]   ">
                         <img   alt=""  src="images/GRAPHIC DESIGN/GRAPHIC-DESIGN-BAR.webp" width="2500" height="28" className="absolute left-0 top-0 animate-move h-full max-h-full max-w-full w-full  " />
                        
@@ -349,7 +352,7 @@ const Accueil = () => {
                 </div>
                 <ImageGallery images={graphic_design} />
 
-            </div>
+            </section>
             <AnimationGallery />
             <About />
             <Footer />

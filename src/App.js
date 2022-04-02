@@ -1,4 +1,5 @@
 
+
 import NavBar from "./component/NavBar";
 import Accueil from "./containers/Acceuil";
 
@@ -25,6 +26,8 @@ function App() {
         </div>
         
       </main>
+      
+    
     
   );
 }

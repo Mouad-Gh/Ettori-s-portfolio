@@ -23,4 +23,26 @@
     .fill_mode{
         animation-fill-mode: both;
     }
+    .defaut{
+        
+        
+        display: inline-block;
+        padding-bottom:4px;
+        background-image: linear-gradient(#E43A19, #E43A19);
+        background-position: 0 78%; /*OR bottom left*/
+        background-size: 0% 3px;
+        background-repeat: no-repeat;
+        transition:
+            background-size 0.3s,
+            background-position 0s 0.3s; /*change after the size immediately*/
+    }
+    
+    .selected {
+        color : #E43A19;
+        /*text-decoration-line: underline;
+        text-underline-offset: 8px; 
+        text-decoration-thickness: 15%;   */    
+        background-position: 100% 78%; /*OR bottom right*/
+        background-size: 100% 3px;
+      }
 }
