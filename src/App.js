@@ -1,6 +1,7 @@
 
 
 import NavBar from "./component/NavBar";
+import ProgressBar from "./component/ProgressBar";
 import Accueil from "./containers/Acceuil";
 
 
@@ -17,7 +18,7 @@ function App() {
     
       <main className="bg-noir w-full min-h-screen flex-row text-white font-azonix h-full scroll-smooth ">
         <NavBar  />
-        
+        <ProgressBar />
         <div className="relative top-[70px]">
         
           
