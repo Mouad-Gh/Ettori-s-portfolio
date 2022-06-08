@@ -46,6 +46,14 @@ const [menuOpen,setMenuOpen] = useState(false);
     useEffect(() => {
         
       const getActiveSection =()=>{
+
+        //active the contact section if the window reaches the bottom of the document
+        const scrollTotal = document.documentElement.scrollTop;
+        const heightWin = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        
+        if(parseInt(scrollTotal/heightWin)===1){
+            return setActiveLink('contact');
+        }
         const sections=document.querySelectorAll('section');
           
 
@@ -61,8 +69,7 @@ const [menuOpen,setMenuOpen] = useState(false);
               
               if(sectionTop<=0 && sectionBottom>=0  ){
                   setActiveLink(section.getAttribute('id'));
-                  console.log("***",sectionTop,sectionBottom,section.getAttribute('id'),activeLink);
-                  
+                  //console.log("***",sectionTop,sectionBottom,section.getAttribute('id'),activeLink); 
               }
           });
       }
@@ -83,8 +90,8 @@ const [menuOpen,setMenuOpen] = useState(false);
                 <a href="#graphic_design"  className={`hidden lg:block  py-6    hover:text-orange rounded   mx-6 defaut ${activeLink==="graphic_design" ? "selected": ""}  `}>Graphic Design</a>
                 <a href="#animation" className={`hidden lg:block  py-6    hover:text-orange rounded defaut ${activeLink==="animation" ? "selected": ""}  `}>Animation</a>
             
-                <a href="#about" className={`hidden lg:block  py-6    hover:text-orange rounded defaut ${activeLink==="about" ? "selected": ""}  `}>About</a>
-                <a href="#contact" className={`hidden lg:block  py-6   hover:text-orange rounded ${activeLink==="contact" ? "selected": ""}  `}>Contact</a>
+                <a href="#about" className={`hidden lg:block  py-6    hover:text-orange defaut ${activeLink==="about" ? "selected": ""}  `}>About</a>
+                <a href="#contact" className={`hidden lg:block  py-6   hover:text-orange rounded defaut ${activeLink==="contact" ? "selected": ""}  `}>Contact</a>
             
             {!menuOpen && <MenuIcon className="lg:hidden p-2 absolute right-4 top-4 z-100 w-12 h-12 text-white hover:text-orange cursor-pointer  " onClick={()=>toggleClick()}/>}
             {menuOpen && <XIcon className="lg:hidden p-2 absolute right-4 top-4 z-100 w-12 h-12 text-white hover:text-orange cursor-pointer " onClick={()=>toggleClick()}/>}
